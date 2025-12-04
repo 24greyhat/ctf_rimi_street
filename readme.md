@@ -97,7 +97,7 @@ The app is very simple and straightforward in tackling each of the demands liste
 
 ### Tech Stack
 
-* **Streamlit** To create and deply the data app.
+* **Streamlit** To create and deploy the data app.
     https://streamlit.io/
 
 * **Pandas** To preprocess and manipulate the dataset.
