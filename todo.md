@@ -64,4 +64,4 @@
 
 - [X] Clean up code and add comments.
 
-- [ ] Deploy.
+- [X] Deploy.
