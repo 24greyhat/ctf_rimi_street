@@ -81,3 +81,24 @@ The app is very simple and straightforward in tackling each of the demands liste
 
 
 
+
+
+---
+
+### Data Sources
+
+ - The sole data source i've used for this project is The CISA's Known Exploited Vulnerabilities dataset.
+
+
+[The CISA's Known Exploited Vulnerabilities dataset](https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=&field_date_added_wrapper=all&field_cve=&sort_by=field_date_added&items_per_page=20&url=)
+
+
+---
+
+### Tech Stack
+
+* **Streamlit** To create and deply the data app.
+    https://streamlit.io/
+
+* **Pandas** To preprocess and manipulate the dataset.
+    https://pandas.pydata.org/
