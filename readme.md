@@ -77,7 +77,7 @@ The app is very simple and straightforward in tackling each of the demands liste
 
         For the data visualization streamlit provides all the tooling and pandas makes it super easy to filter and manipulate the dataset according to our needs.
 
-        All the required features have been implemented, the app is fully functional and to keep it up to date all a user has todo is run the `data_fetcher.py` file.
+        All the required features have been implemented, the app is fully functional and to keep it up to date all a user has to do is run the `data_fetcher.py` file.
 
 
 
