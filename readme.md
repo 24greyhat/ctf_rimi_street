@@ -46,3 +46,38 @@
     * How it works
     * Data sources
     * The application architecture AKA Tech Stack
+
+
+
+
+--- 
+
+#### How the app works: 
+
+
+The app is very simple and straightforward in tackling each of the demands listed above.
+
+1. The dataset is downloaded from the Cyber Security and Infrastructure Security Agency's Website (CISA) in csv format.
+    - ofcourse simple data preprocessing is done by filling in missing values and converting str datetime to pd.datetime fields.
+
+<br/>
+
+2. The app is split into 2 tabs:
+    <br/>
+    - **CVE Analysis**:
+    
+        This tab allows the user to input a CVE and receive all the necassry information predefined in the demands section above.
+
+        <br/>
+
+    - **Trend & Statistics**
+
+        This tab  has 3 inputs that allow the user to filter the data by vendor, product or even search vulnerabilities by names and or return known ransomware campaign use only etc...
+
+
+        For the data visualization streamlit provides all the tooling and pandas makes it super easy to filter and manipulate the dataset according to our needs.
+
+        All the required features have been implemented, the app is fully functional and to keep it up to date all a user has todo is run the `data_fetcher.py` file.
+
+
+

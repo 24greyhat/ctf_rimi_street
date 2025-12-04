@@ -7,62 +7,61 @@
 
 - [x] Define & Install requirements
 
-- [ ] Define app structure with two main pages/tabs.
+- [X] Define app structure with two tabs
 
 
 2. Data Integration
 
-- [ ] Implement CVEDB class that provides all the methods needed to fetch cve data from the cvedb pypi lib.
+    - [x] create a data_fetcher.py
+
 
 
 3. Individual CVE Analysis Page
 
-- [ ] Create a text input for one or more CVEs.
+- [x] Create a text input for one or more CVEs.
 
-- [ ] Implement assisted entry/autocomplete for CVEs.
+- [x] Display main scores: CVSS, Impact, Exploitability, EPSS.
 
-- [ ] Display main scores: CVSS, Impact, Exploitability, EPSS.
+- [x] Display associated CWE(s).
 
-- [ ] Display associated CWE(s).
+- [x] Display Active Exploit Status (KEV).
 
-- [ ] Display Active Exploit Status (KEV).
-
-- [ ] Display Affected Technologies/Components/Versions.
+- [x] Display Affected Technologies/Components/Versions.
 
 
 4. Trends & Statistics Page
 
-- [ ] Create input for keyword (e.g., Oracle).
+- [x] Create input for keyword (e.g., Oracle).
 
-- [ ] Create input for duration (1, 3, 6 months, 1 year).
+- [x] Create input for duration (1, 3, 6 months, 1 year).
 
-- [ ] Display Top 10 highest CVSS vulnerabilities.
+- [x] Display Top 10 highest CVSS vulnerabilities.
 
-- [ ] Display Top highest EPSS vulnerabilities.
+- [x] Display Top highest EPSS vulnerabilities.
 
-- [ ] Display count of Medium severity CVEs.
+- [x] Display count of Medium severity CVEs.
 
-- [ ] Display chart for most frequent CWE.
+- [x] Display chart for most frequent CWE.
 
-- [ ] Display count of KEV exploited CVEs.
+- [x] Display count of KEV exploited CVEs.
 
-- [ ] Plot CVSS score trend over the period.
+- [x] Plot CVSS score trend over the period.
 
-- [ ] Display Average CVSS score.
+- [x] Display Average CVSS score.
 
-- [ ] Display Average EPSS score.
+- [x] Display Average EPSS score.
 
 
 5. Documentation
 
-- [ ] Write docs in README.md:
+- [x] Write docs in README.md:
 
-- [ ] How the app works.
+- [x] How the app works.
 
-- [ ] Data sources used.
+- [X] Data sources used.
 
-- [ ] Application architecture (Tech Stack).
+- [X] Application architecture (Tech Stack).
 
-- [ ] Clean up code and add comments.
+- [X] Clean up code and add comments.
 
-- [ ] Deploy to vercel.
+- [ ] Deploy.
